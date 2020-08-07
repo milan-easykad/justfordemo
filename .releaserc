@@ -11,7 +11,7 @@
         "notifyOnSuccess": true,
         "notifyOnFail": true
       }
-    ]
+    ],
     "@semantic-release/npm"
   ]
 }
