@@ -1,0 +1,32 @@
+{
+  "name": "@justfortest/justfordemo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "commit": "git-cz"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/milan-easykad/justfordemo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/milan-easykad/justfordemo/issues"
+  },
+  "homepage": "https://github.com/milan-easykad/justfordemo#readme",
+  "description": "",
+  "dependencies": {
+    "commitizen": "^4.1.2",
+    "npmrc": "^1.1.1",
+    "semantic-release": "^17.1.1"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.2.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
