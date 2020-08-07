@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "commit": "git-cz",
-    "semantic-release": "semantic-release -d false --no-ci"
+    "semantic-release": "semantic-release -d true --no-ci"
   },
   "author": "",
   "license": "ISC",
