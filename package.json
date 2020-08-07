@@ -1,6 +1,6 @@
 {
   "name": "@justfortest/justfordemo",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "index.js",
   "scripts": {
     "commit": "git-cz",
@@ -24,12 +24,26 @@
     "semantic-release-cli": "^5.4.0"
   },
   "devDependencies": {
+    "@commitlint/cli": "^9.1.1",
+    "@commitlint/config-angular": "^9.1.1",
+    "@commitlint/config-conventional": "^9.1.1",
     "cz-conventional-changelog": "^3.2.0",
+    "husky": "^4.2.5",
     "semantic-release": "^17.1.1"
   },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "commitlint": {
+    "extends": [
+      "./node_modules/@commitlint/config-angular"
+    ]
   }
 }
