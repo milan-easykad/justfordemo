@@ -1,8 +1,8 @@
 {
   "release": {
     "branches":  [
-    {name: 'master'},
-    {name: 'card-124', channel: 'card-124', prerelease: 'beta'}
+    "master",
+    {"name": "card-124", prerelease: true}
   ],
   "plugins": [
     "@semantic-release/commit-analyzer",
