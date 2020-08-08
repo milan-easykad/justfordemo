@@ -1,6 +1,6 @@
 {
   "release": {
-    "branches": ["master"]
+    "branches": ["master", "card-124"]
   },
   "plugins": [
     "@semantic-release/commit-analyzer",
