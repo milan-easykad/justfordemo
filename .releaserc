@@ -13,7 +13,7 @@
       {
         "notifyOnSuccess": true,
         "notifyOnFail": true,
-        markdownReleaseNotes: true
+        "markdownReleaseNotes": true
       }
     ],
     "@semantic-release/npm",
