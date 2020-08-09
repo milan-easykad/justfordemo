@@ -2,7 +2,7 @@
   "release": {
     "branches":  [
     "master",
-    {"name": "card-124", prerelease: true},
+    "card-*",
     {"name": "beta", prerelease: true}
   ]},
   "plugins": [
