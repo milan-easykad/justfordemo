@@ -1,6 +1,7 @@
 {
     "branches":  [
       master,
+      next,
       {name: 'card-[1-9]\d*', prerelease: true}
     ],
   "plugins": [
