@@ -1,6 +1,6 @@
 {
   "name": "@justfortest/justfordemo",
-  "version": "1.8.2-card-300.2",
+  "version": "1.8.2",
   "main": "index.js",
   "scripts": {
     "commit": "git-cz",
