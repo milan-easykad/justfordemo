@@ -1,6 +1,6 @@
 {
   "name": "@justfortest/justfordemo",
-  "version": "1.7.5",
+  "version": "1.7.6",
   "main": "index.js",
   "scripts": {
     "commit": "git-cz",
