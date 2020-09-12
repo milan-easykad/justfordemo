@@ -1,21 +1,21 @@
 {
-    "branches":  [
-      master,
-      next,
-      {name: 'card-[1-9]\d*', prerelease: true}
+    "branches": [
+        master,
+        next,
+        { name: 'card-[1-9]\d*', prerelease: true }
     ],
-  "plugins": [
-    "@semantic-release/commit-analyzer",
-    "@semantic-release/release-notes-generator",
-    [
-      "semantic-release-slack-bot",
-      {
-        "notifyOnSuccess": true,
-        "notifyOnFail": true,
-        "markdownReleaseNotes": true
-      }
-    ],
-    "@semantic-release/npm",
-    "@semantic-release/github"
-  ]
+        "plugins": [
+            "@semantic-release/commit-analyzer",
+            "@semantic-release/release-notes-generator",
+            [
+                "semantic-release-slack-bot",
+                {
+                    "notifyOnSuccess": true,
+                    "notifyOnFail": true,
+                    "markdownReleaseNotes": true
+                }
+            ],
+            "@semantic-release/npm",
+            "@semantic-release/github"
+        ]
 }
