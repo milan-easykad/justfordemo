@@ -12,7 +12,7 @@ jobs:
     steps:
       # Commands are run in a Windows virtual machine environment
       - checkout
-      - run: Write-Host 'Hello, Windows'
+      - run: npx cypress run
 workflows:
   build:
     jobs:
